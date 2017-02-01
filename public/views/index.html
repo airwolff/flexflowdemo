@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="flexFlowApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Flex/Flow</title>
+    <!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script type="text/javascript" src="../../bower_components/angular-route/angular-route.min.js"></script>
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/2.1.0/angularfire.min.js"></script>
+
+    <!-- Firebase Config -->
+    <script src="scripts/config.js"></script>
+
+    <!-- jQuery -->
+    <script src="../../bower_components/jquery-3.1.1.min.js"></script>
+    <!-- Angular Application with Authentication -->
+    <script src="scripts/client.js"></script>
+    <script src="scripts/factory/auth.factory.js"></script>
+    <script src="scripts/factory/template.factory.js"></script>
+    <script src="scripts/factory/budget.factory.js"></script>
+    <script src="scripts/factory/admin.factory.js"></script>
+    <script src="scripts/controller/home.controller.js"></script>
+    <script src="scripts/controller/client.profile.controller.js"></script>
+    <script src="scripts/controller/flex.spend.controller.js"></script>
+    <script src="scripts/controller/flow.spend.controller.js"></script>
+    <script src="scripts/controller/financial.spend.controller.js"></script>
+    <script src="scripts/controller/functional.spend.controller.js"></script>
+    <script src="scripts/controller/additional.info.controller.js"></script>
+    <script src="scripts/controller/results.controller.js"></script>
+    <script src="scripts/controller/nav.controller.js"></script>
+    <!-- <script src="scripts/controller/report.controller.js"></script> -->
+     <!-- Bootstrap -->
+    <script src="../../bower_components/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="../../bower_components/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/images/favicon-16x16.png" sizes="16x16" />
+  </head>
+  <body>
+    <main ng-view></main>
+  </body>
+</html>
