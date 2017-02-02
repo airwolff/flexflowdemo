@@ -7,9 +7,7 @@ const pdfDocument = require('pdfkit');
 const fs = require('fs');
 const nodemailer = require('nodemailer');
 const path = require('path');
-const pool = new pg.Pool({
-    database: config.database
-});
+const pool = new pg.Pool(config.pg);
 const NAME_LENGTH = 22;
 const AMOUNT_LENGTH = 7;
 const MONTHS_ARRAY = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];

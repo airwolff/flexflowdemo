@@ -5,7 +5,7 @@ var config = require('../modules/pg-config');
 var pool = new pg.Pool(config.pg);
 
 admin.initializeApp({
-    "credential": admin.credential.cert({
+    credential: admin.credential.cert({
     "type": process.env.FIREBASE_SERVICE_ACCOUNT_TYPE,
     "project_id": process.env.FIREBASE_SERVICE_ACCOUNT_PROJECT_ID,
     "private_key_id": process.env.FIREBASE_SERVICE_ACCOUNT_PRIVATE_KEY_ID,

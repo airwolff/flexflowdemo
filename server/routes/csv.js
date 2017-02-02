@@ -7,9 +7,7 @@ const fs = require('fs');
 const converter = require('json-2-csv');
 const nodemailer = require('nodemailer');
 const path = require('path');
-const pool = new pg.Pool({
-    database: config.database
-});
+const pool = new pg.Pool(config.pg);
 let csvData = {};
 let budgetID = '';
 // Route: GET profile for a budget
