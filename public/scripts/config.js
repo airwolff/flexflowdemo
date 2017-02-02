@@ -1,8 +1,8 @@
 var config = {
-   apiKey: "AIzaSyC7eDpBk_zcYjjt2M1MZ-GWD03QgfHMkRs",
-   authDomain: "flexflow-7b2c8.firebaseapp.com",
-   databaseURL: "https://flexflow-7b2c8.firebaseio.com",
-   storageBucket: "flexflow-7b2c8.appspot.com",
-   messagingSenderId: "11693026219"
- };
- firebase.initializeApp(config);
+    apiKey: "AIzaSyC6Vng3sNkAf5qaU2FlCz-jjtnIFQLciNI",
+    authDomain: "flexflowdemo-576f1.firebaseapp.com",
+    databaseURL: "https://flexflowdemo-576f1.firebaseio.com",
+    storageBucket: "flexflowdemo-576f1.appspot.com",
+    messagingSenderId: "397493127169"
+  };
+  firebase.initializeApp(config);

@@ -17,7 +17,7 @@ admin.initializeApp({
     "auth_provider_x509_cert_url": process.env.FIREBASE_SERVICE_ACCOUNT_AUTH_PROVIDER_X509_CERT_URL,
     "client_x509_cert_url": process.env.FIREBASE_SERVICE_ACCOUNT_CLIENT_X509_CERT_URL
   }),
-    databaseURL: "https://flexflow-7b2c8.firebaseio.com/" // replace this line with your URL
+    databaseURL: "https://flexflowdemo-576f1.firebaseio.com" // replace this line with your URL
 });
 
 // Pull the id_token off of the request, verify it against our firebase service account private_key.
